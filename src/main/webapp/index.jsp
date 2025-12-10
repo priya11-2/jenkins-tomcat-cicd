@@ -6,10 +6,10 @@
 </head>
 <body>
 
-<h1 class="title">Deployment Successful 🎉</h1>
+<h1 class="title">Deployment Successful </h1>
 
 <div class="card">
-    <p>Your Jenkins → Maven → Tomcat CICD pipeline is working perfectly.</p>
+    <p>Your Jenkins + Maven + Tomcat CICD pipeline is working perfectly.</p>
 </div>
 
 </body>
