@@ -1,23 +1,16 @@
-<%@ page contentType="text/html;charset=UTF-8" %>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Super Tomcat App</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>My Deployed App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
-    <h1>🚀 Super Tomcat Application Running!</h1>
-    <p>This is your JSP home page.</p>
+<h1 class="title">Deployment Successful 🎉</h1>
 
-    <h3>Current Time: <span id="time"></span></h3>
-
-    <a href="hello" class="btn">Click for Heavy Servlet Output</a>
+<div class="card">
+    <p>Your Jenkins → Maven → Tomcat CICD pipeline is working perfectly.</p>
 </div>
-
-<script>
-    document.getElementById("time").innerText = new Date().toLocaleString();
-</script>
 
 </body>
 </html>
